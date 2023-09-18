@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin: 3rem;
+}
+header h5 {
+    font-family: 'Eczar', serif; 
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+header h1 {
+    font-family: 'Eczar', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.section-wrapper {
+    margin: 1rem 0;
+    border-top-style: solid;
+    border-top-width: 0.05rem;
+    border-top-color: rgb(180, 175, 175);
+    padding-top: 1rem;
+    width: 100%;
+}
+.heading-section-wrapper {
+    margin: 1rem 0;
+    font-family: "Eczar", serif;
+}
+.heading-section-wrapper h1 {
+    font-weight: 500;
+}
+.gradient-section-wrapper {
+    display: flex;
+    width: 100%;
+}
+.color-wrapper {
+    margin: 2rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'IM Fell DW Pica', serif;
+}
+.color-tones-wrapper {
+    display: flex;
+    width: 100%;
+}
+.color-section-wrapper {
+    width: 33%;
+}
+.color-name {
+    margin: 1rem 0;
+}
+.color-name h2 {
+    font-style: italic;
+    font-weight: 400;
+}
+.tone-section-wrapper {
+    display: flex;
+    margin-right: 2rem;
+}
+footer {
+    padding: 0.5rem 0 0.5rem 0.20rem;
+}
+
+footer h5 {
+    margin-top: 0.5rem;
+    font-family: 'IM Fell DW Pica', serif; 
+    font-size: 1rem;
+}
+footer p {
+    font-family: 'IM Fell DW Pica', serif; 
+    font-size: 0.9rem;
+}
+.tone-section div {
+    width: 6rem;
+    height: 6rem; 
+}
+.blue {
+    background-color: #488AC7;
+}
+.light-blue {
+    background-color: #BFDFFB;
+}
+.border-blue {
+    border: 0.02rem solid  #BFDFFB;
+}
+.yellow {
+    background-color: #fcb81a;
+}
+
+.light-yellow {
+    background-color: #fedf99;
+}
+.border-yellow {
+    border: 0.02rem solid #fedf99;
+}
+.purplish-red {
+    background-color: #910043;
+}
+.light-purplish-red {
+    background-color: #febad9;
+}
+.border-purplish-red {
+    border: 0.02rem solid #febad9;
+}
+.orange {
+    background-color: #E64017;
+}
+.border-orange {
+    border: 0.02rem solid #E69C8A;
+}
+.light-orange {
+    background-color: #E69C8A;
+}
+.border-light-orange {
+    border: 0.02rem solid #E69C8A;
+}
