@@ -30,6 +30,7 @@ header h1 {
 }
 .heading-section-wrapper h1 {
     font-weight: 500;
+    color: #3C3491;
 }
 .gradient-section-wrapper {
     display: flex;
@@ -69,7 +70,7 @@ footer h5 {
     font-size: 1rem;
 }
 footer p {
-    font-family: 'IM Fell DW Pica', serif; 
+    font-family: 'Eczar', serif; 
     font-size: 0.9rem;
 }
 .tone-section div {
@@ -88,7 +89,6 @@ footer p {
 .yellow {
     background-color: #fcb81a;
 }
-
 .light-yellow {
     background-color: #fedf99;
 }
@@ -107,12 +107,51 @@ footer p {
 .orange {
     background-color: #E64017;
 }
-.border-orange {
-    border: 0.02rem solid #E69C8A;
-}
 .light-orange {
     background-color: #E69C8A;
 }
-.border-light-orange {
+.border-orange {
     border: 0.02rem solid #E69C8A;
+}
+.purple {
+    background-color: #3c3491;
+}
+.border-purple {
+    border: 0.02rem solid #948ed6; 
+}
+.light-purple {
+    background-color: #948ed6;
+}
+.lemon-green {
+    background-color: #bcf108;
+}
+.border-lemon-green {
+    border: 0.02rem solid #d9f96b;
+}
+.light-lemon-green {
+    background-color: #d9f96b;
+}
+.white {
+    background-color: white;
+}
+.border-grey {
+    border: 0.02rem solid #DCE0E7;
+}
+.beige {
+    background-color: #F7F6F5;
+}
+.grey {
+    background-color: #C8CBD1;
+}
+.light-grey {
+    background-color: #DCE0E7;
+}
+.black {
+    background-color: #070707;
+}
+.dark-grey {
+    background-color: #4e4F52;
+}
+.border-dark-grey {
+    border: 0.02rem solid #4e4F52;
 }
