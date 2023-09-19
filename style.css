@@ -3,12 +3,14 @@
     padding: 0;
 }
 main {
-    margin: 3rem;
+    margin: 5rem;
+    padding: 0 3rem;
 }
 header h5 {
     font-family: 'Eczar', serif; 
     font-size: 0.9rem;
     font-weight: 400;
+    color: #4e4F52;
 }
 header h1 {
     font-family: 'Eczar', serif;
@@ -31,13 +33,14 @@ header h1 {
 .heading-section-wrapper h1 {
     font-weight: 500;
     color: #3C3491;
+    font-size: 2rem;
 }
-.gradient-section-wrapper {
+.inner-section-wrapper {
     display: flex;
     width: 100%;
+    margin: 3rem 0;
 }
 .color-wrapper {
-    margin: 2rem 0;
     width: 100%;
     box-sizing: border-box;
     font-family: 'IM Fell DW Pica', serif;
@@ -52,9 +55,10 @@ header h1 {
 .color-name {
     margin: 1rem 0;
 }
-.color-name h2 {
+.color-name p {
     font-style: italic;
     font-weight: 400;
+    font-size: 1.5rem;
 }
 .tone-section-wrapper {
     display: flex;
@@ -154,4 +158,67 @@ footer p {
 }
 .border-dark-grey {
     border: 0.02rem solid #4e4F52;
+}
+.typography-section-wrapper {
+    display: flex;
+    width: 100%;
+}
+.font-section-wrapper {
+    width: 20%;
+    display: flex;
+    font-family: "Eczar" , serif;
+}
+.letter {
+    margin-right: 2rem;
+}
+.letter h1 {
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 6rem;
+}
+.letter h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #4e4F52;
+}
+.tag-section-wrapper {
+    width: 60%;
+    font-family: "Eczar", serif;
+    padding-left: 0.5rem;
+}
+.tag-section-wrapper h1, h2, h3, h4, h5 {
+    font-weight: 500;
+    justify-content: center;
+}
+.tag-section-wrapper h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.tag-section-wrapper h2 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.tag-section-wrapper h3 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.tag-section-wrapper h4 {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.tag-section-wrapper h5 {
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+.font-style h2 {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.font-style p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #4e4F52;
 }
