@@ -165,7 +165,6 @@ footer p {
 } 
 .second-section-wrapper {
     width: 50%;
-    padding-right: 3rem;
 }
 .block-wrapper {
     width: 100%;
@@ -257,17 +256,101 @@ p.pica {
     font-size: 1.5rem;
 }
 .text-wrapper {
-    width: 50%;
+    width: 40%;
     font-family: "IM Fell DW Pica", serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    padding-right: 2rem;
 }
 .description p {
     text-align: justify;
 }
-.structure {
+.definition {
     padding: 2rem 0;
-    
+    display: flex;
+    margin: 2rem 0;
+}
+.second-section-wrapper.space {
+    padding-left: 2rem;
+}
+.table-wrapper {
+    width: 60%;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+}
+ul {
+    padding-left: 0.8rem;
 }
 ul li {
     list-style-type: none;
+    padding-bottom: 1rem;
+    line-height: 1.3rem;
+}
+ul li.none {
+    padding-bottom: 0;
+}
+.definition div {
+    color: #fcb81a;
+    background-color: #fcb81a;
+    width: 2.5rem;
+    height:auto;
+}
+.code-wrapper {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0.07rem solid #3c3491;
+}
+ul.breadcrumb {
+    padding: 1rem 0;
+    text-align:center;
+    border-top: 0.10rem solid #3c3491;
+    border-right: 0.10rem solid #3c3491;
+    border-left: 0.10rem solid #3c3491;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-family: "IM Fell DW Pica", serif;
+}
+ul.breadcrumb li a {
+    text-decoration: none;
+    color: #3c3491;
+}
+ul.breadcrumb li a:hover {
+    cursor: pointer;
+    color: #fcb81a;
+}
+ul.breadcrumb li + li::before {
+    content: ">";
+    padding-right: 0.2rem;
+}
+ul.breadcrumb li + li::after {
+    padding-left: 0.2rem;
+}
+.breadcrumb-look {
+    width: 100%;
+}
+.html {
+    width: 50%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 0.05rem solid #3c3491;
+    font-family: "Eczar", serif;
+}
+.html p,
+.css p {
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+.css {
+    width: 50%;
+    padding: 0.5rem;
+    font-family: "Eczar", serif;
+    border: 0.05rem solid #3c3491;
+}
+.html h3,
+.css h3 {
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    font-weight: 500;
 }
