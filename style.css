@@ -39,7 +39,7 @@ header h1 {
 .inner-section-wrapper {
     display: flex;
     width: 100%;
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 .color-wrapper {
     width: 100%;
@@ -353,12 +353,89 @@ ul.breadcrumb li + li::after {
     line-height: 1.3rem;
     font-weight: 500;
 }
+.button-section-wrapper {
+    width: 50%;
+}
 .button-style-name  h2 {
     font-family: "Eczar", serif;
     font-size: 1.6rem;
     font-weight: 500;
 }
 .button-definition {
-    margin: 2rem 0;
+    margin: 1rem 0;
     font-family: "Eczar", serif;
+    display: flex;
+    width: 100%;
+}
+.button-definition div {
+    color: #fcb81a;
+    background-color: #fcb81a;
+    width: 1rem;
+    height:auto;
+}
+.button-definition p {
+    padding-left: 0.5rem;
+}
+.button-design {
+    display: flex;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.button {
+    width: 34%;
+    padding-right: 1rem;
+}
+.button button {
+    padding: 0.5rem 0.5rem;
+    margin: 0 1rem 1rem 0;
+    text-transform: uppercase;
+    font-family: "Eczar", serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.3rem;
+    border: none;
+    width: 100%;
+}
+.button button:hover {
+    cursor:pointer;
+}
+.button button.subscribe {
+    background-color: #948ED6;
+    box-shadow: 0.4rem 0.4rem 0 0.04rem #fcb81a;
+    font-weight: 500;
+}
+.button button.subscribe:hover {
+    color: white;
+    text-shadow: 0.2rem 0.03rem 0.1rem #E69C8A;
+}
+.button button.download {
+    background-color: #FEBAD9;
+    box-shadow: 0.4rem 0.4rem 0 0.04rem #D9F96B;
+    font-weight: 500;
+}
+.button button.download:hover {
+    color:#2a8fe7;
+    text-shadow: 0.2rem 0.03rem 0.1rem #DCE0E7;
+}
+.button button.submit {
+    background-color: #E69C8A;
+    box-shadow: 0.4rem 0.4rem 0 0.04rem #BFDFFB;
+    font-weight: 500;
+}
+.button button.submit:hover {
+    color:#3C3491;
+    text-shadow: 0.2rem 0.03rem 0.1rem #BFDFFB;
+}
+.button h3 {
+    font-family: "Eczar", serif;
+    font-weight: 500;
+}
+.css-text {
+    border-style: inset;
+    border-width: 0.2rem;
+    border-color: #C8CBD1;
+    padding: 0.5rem;
+}
+.css-text p {
+    font-family: "Eczar", serif;
+    font-size: 0.9rem;
 }
