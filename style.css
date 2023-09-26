@@ -355,6 +355,8 @@ ul.breadcrumb li + li::after {
 }
 .button-section-wrapper {
     width: 50%;
+    padding-right: 4rem;
+    box-sizing: border-box;
 }
 .button-style-name  h2 {
     font-family: "Eczar", serif;
@@ -437,5 +439,5 @@ ul.breadcrumb li + li::after {
 }
 .css-text p {
     font-family: "Eczar", serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
