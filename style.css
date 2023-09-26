@@ -258,7 +258,7 @@ p.pica {
     width: 40%;
     font-family: "IM Fell DW Pica", serif;
     font-size: 1.2rem;
-    padding-right: 2rem;
+    padding-right: 1.5rem;
 }
 .description p {
     text-align: justify;
@@ -302,9 +302,9 @@ ul li.none {
 ul.breadcrumb {
     padding: 1rem 0;
     text-align:center;
-    border-top: 0.10rem solid #3c3491;
-    border-right: 0.10rem solid #3c3491;
-    border-left: 0.10rem solid #3c3491;
+    border-top: 0.15rem solid #3c3491;
+    border-right: 0.15rem solid #3c3491;
+    border-left: 0.15rem solid #3c3491;
 }
 ul.breadcrumb li {
     display: inline;
@@ -440,4 +440,73 @@ ul.breadcrumb li + li::after {
 .css-text p {
     font-family: "Eczar", serif;
     font-size: 0.8rem;
+}
+.button button.click {
+    border-radius: 0.4rem;
+    font-weight: 500;
+}
+.button button.grey {
+    background-color: #DCE0E7;
+    border: inset 1rem solid #D9F96B;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.04rem #4E4F52;
+    color: black;
+    text-shadow: 0.03rem 0.03rem 0.1rem black;
+}
+.button button.grey:hover {
+    color: #E64017;
+    text-shadow: 0.03rem 0.03rem 0.1rem #66200f;
+    background-color: #F7F6F5;
+    border: inset 3rem solid black;
+}
+.button button.grey:active {
+    box-shadow: none;
+    position:relative;
+    left: 0.2rem;
+    top: 0.2rem;
+    background-color: #E64017;
+    color: white;
+    text-shadow: 0.03rem 0.03rem 0.1rem #F7F6F5;
+}
+.button button.yellow {
+    border: inset 1rem solid #D9F96B;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.04rem #4E4F52;
+    color: black;
+    text-shadow: 0.03rem 0.03rem 0.1rem #3C3491;
+}
+.button button.yellow:hover {
+    color: #910043;
+    text-shadow: 0.03rem 0.03rem 0.1rem #910043;
+    background-color: #D9F96B;
+    border: inset 3rem solid black;
+}
+.button button.yellow:active {
+    box-shadow: none;
+    position:relative;
+    left: 0.2rem;
+    top: 0.2rem;
+    background-color: #910043;
+    color: #D9F96B;
+    text-shadow: 0.03rem 0.03rem 0.1rem #D9F96B;
+}
+.button button.violet {
+    border: inset 1rem solid #D9F96B;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.04rem #4E4F52;
+    color: white;
+    text-shadow: 0.03rem 0.03rem 0.1rem #3C3491;
+    background-color: #3C3491;
+}
+.button button.violet:hover {
+    color: black;
+    text-shadow: 0.03rem 0.03rem 0.1rem black;
+    background-color: #FEDF99;
+    border: inset 3rem solid black;
+}
+.button button.violet:active {
+    box-shadow: none;
+    position:relative;
+    left: 0.2rem;
+    top: 0.2rem;
+    background-color: #488AC7;
+    color: #F7F6F5;
+    text-shadow: 0.03rem 0.03rem 0.1rem #F7F6F5;
 }
